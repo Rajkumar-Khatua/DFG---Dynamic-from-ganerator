@@ -1,0 +1,231 @@
+/* Define some common styles for the form generator application */
+.form-generator {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 20px;
+  
+
+}
+
+.form-config,
+.form-render {
+  width: 45%;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+h1,
+h2,
+h4 {
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+/* Define some styles for the form field configuration component */
+.field-config {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="file"],
+textarea,
+select {
+  width: 80%;
+}
+input[type="text"] {
+  border: 1px solid #0078d4;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 16px;
+}
+input[type="file"] {
+  border: 1px solid #0078d4;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 16px;
+}
+textarea {
+  border: 1px solid #0078d4;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 16px;
+}
+.type {
+  border: 1px solid #0078d4;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 16px;
+}
+/* Apply styles on focus (when the input is selected) */
+input[type="file"]:focus {
+  border-color: #005a9e;
+}
+
+.radio-option {
+  display: flex;
+  align-items: center;
+}
+
+.radio-option span {
+  margin-left: 5px;
+}
+
+.add-button,
+.save-button,
+.load-button,
+.submit-button {
+  width: fit-content;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #06ad6d;
+  color: white;
+  margin-right: 10px;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border: none;
+  font-size: 16px;
+}
+
+.remove-button {
+  width: fit-content;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fa3636;
+  color: white;
+  font-weight: bold;
+  margin-right: 10px;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border: none;
+  font-size: 16px;
+  margin-top: 10px;
+  align-self: flex-end;
+}
+.remove-button:hover {
+  background-color: #d32f2f;
+}
+.add-button:hover,
+.save-button:hover,
+.load-button:hover,
+.submit-button:hover {
+  background-color: #005a9e;
+}
+
+.remove-button {
+  align-self: flex-end;
+}
+
+.add-button,
+.save-button,
+.load-button {
+  margin-top: 10px;
+}
+
+.save-button,
+.load-button {
+  margin-right: 10px;
+}
+
+/* Define some styles for the form field rendering component */
+.form-render form {
+  display: flex;
+  flex-direction: column;
+}
+.form-render-field {
+}
+
+.error {
+  color: red;
+}
+
+.file-name {
+  font-style: italic;
+}
+/* Define a primary color for your application */
+:root {
+  --primary-color: #3f51b5; /* You can change this to your preferred color */
+}
+
+/* Apply the primary color to important elements */
+.add-button,
+.save-button,
+.load-button,
+.submit-button {
+  background-color: var(--primary-color);
+}
+
+/* Improve button hover effect */
+.add-button:hover,
+.save-button:hover,
+.load-button:hover,
+.submit-button:hover {
+  background-color: #303f9f; /* Darken the color on hover */
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+/* Adjust font and spacing for labels */
+label {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 6px; /* Add some space below labels */
+}
+
+/* Apply subtle border and shadow to form fields */
+.form-field {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+}
+
+/* Add a hover effect for form fields */
+.form-field:hover {
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s;
+}
+.form-submission {
+  margin-top: 20px;
+}
+.form-submission-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form-submission-head-val {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+}
+
+
