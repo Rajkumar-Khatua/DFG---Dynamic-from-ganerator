@@ -51,7 +51,7 @@ Follow these steps to use the Dynamic Form Generator Application:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-username/dynamic-form-generator.git
+   git clone https://github.com/Rajkumar-Khatua/DFG---Dynamic-from-ganerator.git
    ```
 
 2. **Navigate to the Project Directory:**
