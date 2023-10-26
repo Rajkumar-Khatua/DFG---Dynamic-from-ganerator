@@ -78,7 +78,13 @@ Follow these steps to use the Dynamic Form Generator Application:
     http://localhost:5173
    ```
 
-6. **Create a Form:**
+6. **Open the Application in a Browser:**
+
+   ```bash
+    https://dfg-dynamic-from-ganerator.vercel.app/
+   ```
+
+7. **Create a Form:**
    - Click the "Add Field" button to add a new form field.
    - Select a field type from the dropdown menu.
    - Enter a label for the field.
@@ -110,5 +116,7 @@ I would also like to thank the developers and contributors of the technologies a
 - [Vercel](https://vercel.com/) - For hosting and version control of this project.
 
 Finally, I want to acknowledge the support and encouragement of my friends and colleagues who provided valuable insights and feedback during the development of this project. Your contributions have been invaluable.
+
+You can check out the live project [here](https://dfg-dynamic-from-ganerator.vercel.app/).
 
 Thank you all for being a part of this project's journey.
