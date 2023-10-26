@@ -57,7 +57,7 @@ Follow these steps to use the Dynamic Form Generator Application:
 2. **Navigate to the Project Directory:**
 
    ```bash
-   cd dynamic-form-generator
+   cd DFG---Dynamic-from-ganerator
    ```
 
 3. **Install the Dependencies:**
