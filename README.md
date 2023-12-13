@@ -106,8 +106,6 @@ Follow these steps to use the Dynamic Form Generator Application:
 
 ## Acknowledgments
 
-I would like to express my gratitude to [OnlineSales.ai](https://onlinesales.ai/) for providing me with this interview assignment. This project has been a valuable learning experience, and I appreciate the opportunity to work on it.
-
 I would also like to thank the developers and contributors of the technologies and tools I used in this project:
 
 - [React.js](https://reactjs.org/) - A fantastic JavaScript library for building user interfaces.
